@@ -1,0 +1,97 @@
+ /* .navbar {background-color: #001a1400;} */
+/* min-height:80px;} */
+.mat-toolbar{
+    background: #0F3E86;
+    min-height: 80px;
+    font-size: 14px;
+    border:0;
+}
+ #loginLogo{
+    height: 50px;
+    display:block;
+    position:absolute;
+    top:10px;
+    left:30px;
+    background:#fff;
+    margin-top:5px;
+  }
+  
+  .wrapper{
+    float: left;
+    width: 100%;
+    background: #cccccc14;
+    height: 100%;
+  }  
+
+  
+  .example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+.card-body{
+   margin-top:50px;
+   padding-top: 0%;
+   text-align: center;
+}
+
+.mat-fab{
+  width:100px;
+  height:100px;
+  line-height: 100px;
+  background: #1192d2
+}
+.card-centered{
+  margin-right:px;
+}
+.label[for="motorRadio"]{
+width:90px;
+text-align: center;
+padding: 21px 25px;
+}
+.fa-car{
+  background: #3B5998;
+    color: white;
+    }
+/* .fa-car::before{
+  content: "\f1b9"; */
+  /* background: #3B5998; */
+    /* color: white; */
+    /* } */
+    /* .fa{
+      display: inline-block;
+      font:normal normal normal 14px/1 FontAwesome;
+
+      /* padding: 20px; */
+      /* font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing:antialised; */ 
+      /* width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px; */
+      .fa {
+        width: 90px;
+    text-align: center;
+    padding: 21px 25px;
+    background: #1192d2;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #1192d2;
+    font-size: 30px;
+      }
+    
+    .label[for="motorRadio"]{
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+    }
+    .ProductTitles{
+      color: #1192d2;
+      font-size: 13px;
+      font-weight: 700;
+      font-family: 'SourceSansPro-Bold',arial,sans-serif;
+
+}
+    

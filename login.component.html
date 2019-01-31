@@ -1,0 +1,63 @@
+<div class="wrapper">
+  <img src="assets/img/aman.png" alt="TATGIC" class="hidden-xs" id="loginLogo" style>
+  </div>
+
+  
+<div class="wrapper_login">
+  <div class="login_cantainer">
+  
+  <div class="col-md-6 box1_login">
+  
+          <span class="title_login">  TATA AIG CONNECT</span> 
+          <span  class="subtitle_login">  
+          Welcome to Tata AIG General Insurance
+          The company has made a mark in the industry by launching several innovative products and services over the years. The company's products are available through various channels of distribution such as Agency, Broking, Bancassurance & Affinity and Digital/Online.
+          </span>    
+           <div  class="detials_title_login">
+              Support Team available from 9:30 AM to 8:30 PM (Monday to Saturday)<br><br>
+  
+              Email: portalsupport@tataaig.com<br><br>
+              Phone: 022-6814 4712 (09:00 AM to 09:00 PM)<br><br>
+              Phone: 022-6814 4711 (09:00 AM to 09:00 PM)<br><br>
+          </div> 
+        
+  </div>
+  
+  <div class="box2_login_wrapper">
+
+         <mat-toolbar-row>
+          <mat-icon class="example-icon">lock</mat-icon>
+         </mat-toolbar-row>
+  <div class=" box2_login">
+
+      <form name="form" [formGroup]='loginForm' (ngSubmit)="onSubmit()">
+    <div class="form-group">
+
+  <mat-card class="matcard_login_page">
+          <div class="example-container">
+                  <mat-form-field class="width_100">
+                    <input matInput placeholder="Username">
+                  </mat-form-field>
+                  <mat-form-field class="width_100">
+                      <input matInput placeholder="password">
+                    </mat-form-field>
+                  
+                </div>
+              <!-- </div> -->
+              <!-- </form> -->
+  <!-- </div> -->
+
+  <div class="btn_login_pge"> 
+      <button type="submit" routerLink='/dashboard' class="btn btn-primary" [disabled]="!loginForm.valid">Login</button>
+      <!-- <button  routerLink='/dashboard' mat-raised-button  color="primary">Login</button> -->
+    <!-- <button mat-raised-button color="accent">Register</button></div> -->
+  </div>  
+  </mat-card>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+  
+
+

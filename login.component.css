@@ -1,0 +1,117 @@
+.wrapper{
+  /* position: fixed;
+  text-align: left;
+  width: 100%;
+  bottom: 0; */
+}
+#loginLogo{
+  height: 75px;
+  display:block;
+  position:absolute;
+  top:15px;
+  left:10px;
+  background:#fff;
+}
+
+/* .logo-image {
+  height: 100%;
+  width: 100%;
+} */
+
+
+.wrapper_login{
+  float: left;
+  width: 100%;
+  background: #cccccc14;
+  height: 100%;
+}
+.login_cantainer{
+  float: left;
+  width: 100%;
+
+}
+.box1_login{
+  float: left;
+  width: 60%;
+  padding: 70px;
+  margin-left: 30px;
+}
+.box2_login{
+  float: left;
+  width: 100%;
+}
+.box2_login_wrapper{
+  float: right;
+  width: 40%;
+  padding: 70px;
+  height: 900px;
+  background: #18478b;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.title_login{
+  float: left;
+  width: 100%;
+  text-align: center;
+  border: 1px solid;
+  font-size: 21px;
+  margin-bottom: 22px;
+  font-weight: 600;
+  color: royalblue;
+  font-family: sans-serif;
+  padding: 27px;
+  margin-left: 30px;
+  margin-top:70px;
+}
+
+.subtitle_login{
+  float: left;
+  width: 100%;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-left:20px;
+}
+
+.detials_title_login{
+  float: left;
+  font-size: 14px;
+  width: 100%;
+  padding-left: 40px;
+  border: 1px dotted;
+  padding: 24px;
+  margin-left: 30px;
+  color:blue;
+}
+.btn_login_pge{
+    float: right;
+}
+
+.width_100{
+    width: 100%;
+    float: left;
+}
+.btn_login_pge button{
+    margin: 10px;
+}
+.matcard_login_page{
+    float: left;
+    width: 100%;
+    margin-top:50px;
+
+}
+.mat-icon{
+  margin-left:180px;
+}
+
